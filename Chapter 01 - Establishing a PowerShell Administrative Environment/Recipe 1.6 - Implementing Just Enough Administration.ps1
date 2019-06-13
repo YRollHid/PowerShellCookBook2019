@@ -28,7 +28,7 @@ $NGHT  = @{
   Name        = 'RKDnsAdmins '
   Path        = $OURoot 
   GroupScope  = 'Universal'
-  Description = 'RKnsAdmins group for JEA'
+  Description = 'RKDnsAdmins group for JEA'
 }
 
 New-ADGroup -Name RKDnsAdmins -Path $OURoot -GroupScope Universal
